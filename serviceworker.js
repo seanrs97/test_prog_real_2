@@ -1,7 +1,7 @@
 var CACHE_NAME = 'gih-cache-v5';
 var CACHED_URLS = [
   // Our HTML
-  'browserconfig.xml'
+  'browserconfig.xml',
   'first.html',
   'index.html',
   'manifest.JSON',
@@ -12,7 +12,8 @@ var CACHED_URLS = [
   'serviceworker.js',
   'styles.css',
   'test_manifest.html',
-  'test_start_materialize'
+  'test_start_materialize',
+  //images
   'appImages/dino.png',
   'appImages/favicon.icon',
   'appImages/favicon-16x16.png',
@@ -20,6 +21,7 @@ var CACHED_URLS = [
   'appImages/favicon-96x96.png',
   'appImages/jack.png',
   'appImages/paddy.png',
+  //android icons
   'eventImages/android-icon-36x36.png',
   'eventImages/android-icon-48x48.png',
   'eventImages/android-icon-72x72.png',
