@@ -7,7 +7,7 @@ var CACHED_URLS = [
   'manifest.JSON',
   'mystyles.css',
   'offline.html',
-  'README.MD',
+  'README.md',
   'second.html',
   'serviceworker.js',
   'styles.css',
@@ -15,7 +15,7 @@ var CACHED_URLS = [
   'test_start_materialize',
   //images
   'appImages/dino.png',
-  'appImages/favicon.icon',
+  'appImages/favicon.ico',
   'appImages/favicon-16x16.png',
   'appImages/favicon-32x32.png',
   'appImages/favicon-96x96.png',
