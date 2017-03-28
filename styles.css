@@ -222,7 +222,8 @@ img.article-image {
 #myMap{
 	height:400px;
 	width:100%;
-}
+	text-align:center;
+} 
 
 #mainImg {
   width: 100%;
