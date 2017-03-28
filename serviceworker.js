@@ -70,7 +70,7 @@ self.addEventListener('fetch', function(event) {
     CACHED_URLS.indexOf(requestURL.href) !== -1 ||
     CACHED_URLS.indexOf(requestURL.pathname) !== -1
   ) {
-    event.respondWith(
+    event.respondWith(         
       caches.open(CACHE_NAME).then(function(cache) {
         return cache.match(event.request).then(function(response) {
           return response || fetch(event.request);
@@ -86,7 +86,7 @@ self.addEventListener('activate', function(event) {
     caches.keys().then(function(cacheNames) {
       return Promise.all(
         cacheNames.map(function(cacheName) {
-          if (cacheName.startsWith('gih-cache') && CACHE_NAME !== cacheName) {
+          if (cacheName.startsWith('gih-cache-v5') && CACHE_NAME !== cacheName) {
             return caches.delete(cacheName);
           }
         })
