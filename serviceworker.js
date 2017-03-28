@@ -34,9 +34,15 @@ var CACHED_URLS = [
   'eventImages/example-blog04.jpg',
   'eventImages/example-blog05.jpg',
   'eventImages/example-blog06.jpg',
-  'eventImages/example-blog07.jpg',
-  'eventImages/example-blog08.jpg',
-  'eventImages/example-blog09.jpg',
+  'eventImages/example-work01.jpg',
+  'eventImages/example-work02.jpg',
+  'eventImages/example-work03.jpg',
+  'eventImages/example-work04.jpg',
+  'eventImages/example-work05.jpg',
+  'eventImages/example-work06.jpg',
+  'eventImages/example-work07.jpg',
+  'eventImages/example-work08.jpg',
+  'eventImages/example-work09.jpg',
   
   // Stylesheets and fonts
   // JavaScript
