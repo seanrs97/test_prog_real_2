@@ -36,7 +36,7 @@ var CACHED_URLS = [
     'https://fonts.googleapis.com/icon?family=Material+Icons',
     BASE_PATH + 'min-style.css',
     BASE_PATH + 'styles.css',
-	BASE_PATH + 'appimages/event-default.png',
+	BASE_PATH + 'appImages/event-default.png',
 	BASE_PATH + 'scripts.js',
 	BASE_PATH + 'events.json'
 
