@@ -11,11 +11,11 @@ var CACHED_URLS = [
     BASE_PATH + 'eventImages/android-icon-96x96.png',
     BASE_PATH + 'eventImages/android-icon-144x144.png',
     BASE_PATH + 'eventImages/android-icon-192x192.png',
-    BASE_PATH + 'eventImages/favicon-32x32.png',
+    BASE_PATH + 'appImages/favicon-32x32.png',
 
     //Images for page
     BASE_PATH + 'appImages/offlinemap.jpg',
-    BASE_PATH + 'eventImages/dino.png',
+    BASE_PATH + 'appImages/dino.png',
     BASE_PATH + 'appImages/jack.jpg',
     BASE_PATH + 'appImages/paddy.jpg',
     BASE_PATH + 'appImages/favicon.ico',
@@ -26,7 +26,7 @@ var CACHED_URLS = [
     BASE_PATH + 'appImages/ms-icon-144x144.png',
     BASE_PATH + 'appImages/ms-icon-150x150.png',
     BASE_PATH + 'appImages/ms-icon-310x310.png',
-    BASE_PATH + 'eventsImages/example-blog01.jpg',
+    BASE_PATH + 'eventImages/example-blog01.jpg',
     BASE_PATH + 'eventImages/example-blog02.jpg',
     BASE_PATH + 'eventImages/example-blog03.jpg',
     BASE_PATH + 'eventImages/example-blog04.jpg',
