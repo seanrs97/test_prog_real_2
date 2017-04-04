@@ -53,19 +53,6 @@
               </p>
             <h3>Sub Title</h3>
                <div id="map-container" style="height: 300px;"></div>
-                <script>
-                function initMap() {
-                    var myLocation = {lat: 53.0103798, lng: -2.1801833};
-                    var map = new google.maps.Map(document.getElementById('map-container'), {
-                    zoom: 2,
-                    center: myLocation
-                    });
-                    var marker = new google.maps.Marker({
-                    position: myLocation,
-                    map: map
-                    });
-                }
-				</script>
             <div class="mdl-grid portfolio-max-width">
                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
                     <div class="mdl-card__media">
@@ -170,28 +157,19 @@
       </main>
     </div>
        <script src="material.js"></script>
-      <script>
-		  if ('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('serviceworker.js').then(function(registration) {
-
-			console.log('Service worker registered successfully');
-			}).catch(function(err) {
-			console.log('Service worker registration failed: ', err);
-			});
-		  }
-		  function initMap(){
-			var uluru = {lat: -25.363, lng: 131.044};
-			var map = new google.maps.Map(document.getElementById("myMap"),{
-				zoom: 4,
-				center: uluru
-			});
-			var marker = new google.maps.Marker({
-				position: uluru,
-				map: map
-			});
-		  }
-
-      </script>
+                <script>
+                function initMap() {
+                    var myLocation = {lat: 53.0103798, lng: -2.1801833};
+                    var map = new google.maps.Map(document.getElementById('map-container'), {
+                    zoom: 2,
+                    center: myLocation
+                    });
+                    var marker = new google.maps.Marker({
+                    position: myLocation,
+                    map: map
+                    });
+                }
+				</script>
 	  
                 </script>
                 <script async defer
