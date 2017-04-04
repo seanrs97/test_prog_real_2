@@ -5,17 +5,17 @@ var CACHED_URLS = [
     BASE_PATH + 'first.html',
     
     // Images for favicons
-    BASE_PATH + 'appimages/android-icon-36x36.png',
-    BASE_PATH + 'appimages/android-icon-48x48.png',
-    BASE_PATH + 'appimages/android-icon-72x72.png',
-    BASE_PATH + 'appimages/android-icon-96x96.png',
-    BASE_PATH + 'appimages/android-icon-144x144.png',
-    BASE_PATH + 'appimages/android-icon-192x192.png',
-    BASE_PATH + 'appimages/favicon-32x32.png',
+    BASE_PATH + 'eventsimages/android-icon-36x36.png',
+    BASE_PATH + 'eventsimages/android-icon-48x48.png',
+    BASE_PATH + 'eventsimages/android-icon-72x72.png',
+    BASE_PATH + 'eventsimages/android-icon-96x96.png',
+    BASE_PATH + 'eventsimages/android-icon-144x144.png',
+    BASE_PATH + 'eventsimages/android-icon-192x192.png',
+    BASE_PATH + 'eventsimages/favicon-32x32.png',
 
     //Images for page
     BASE_PATH + 'appimages/offlinemap.jpg',
-    BASE_PATH + 'appimages/dino.png',
+    BASE_PATH + 'eventimages/dino.png',
     BASE_PATH + 'appimages/jack.jpg',
     BASE_PATH + 'appimages/paddy.jpg',
     BASE_PATH + 'appimages/favicon.ico',
